@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lists>
+<item>
+<fulllist><![CDATA[new york, caribbean, maldives, china, australia, greece, spain, kenya]]></fulllist>
+<result><![CDATA[china]]></result>
+</item>
+<item>
+<fulllist><![CDATA[makan, tidur, eek]]></fulllist>
+<result><![CDATA[tidur]]></result>
+</item>
+<item>
+<fulllist><![CDATA[red, green, blue]]></fulllist>
+<result><![CDATA[green]]></result>
+</item>
+<item>
+<fulllist><![CDATA[red, green, blue, yellow]]></fulllist>
+<result><![CDATA[yellow]]></result>
+</item>
+</lists>

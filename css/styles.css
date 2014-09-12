@@ -1,0 +1,303 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: century gothic, century, sans-serif;
+	font-size: 62.5%;
+	background: url("../images/texture_bg.gif");
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,label,select,textarea,p,blockquote,th,td {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size:1em;
+	font-weight: normal;
+	font-style: normal;
+}
+
+input, textarea, select {
+	font-family: verdana, sans-serif;
+	font-size: 1em;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.clearer {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+
+#mainContainer {
+	width: 421px;
+	min-height: 430px;
+	height: auto !important;
+	height: 430px;
+	padding: 250px 190px 0px 189px;
+	background: url("../images/maincontainer_bg.jpg") no-repeat;
+	margin: 0px auto 0px auto;
+}
+
+#labelContainer {
+	width: 421px;
+	padding: 0px 0px 12px 0px;
+	display: block;
+}
+
+label {
+	font-family: "Archer", Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 1.8em;
+	padding: 20px 0px 0px 0px;
+	float: left;
+	display: inline;
+	width: auto;
+}
+
+span.labelHelp {
+	font-size: 1.1em;
+	font-family: "Century Gothic", Century, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	float: left;
+	display: inline;
+	color: #FFFFFF;
+	margin: 23px 0px 0px 5px;
+	width: 195px;
+}
+
+#inputContainer {
+	clear: both;
+	display: block;
+	width: 421px;
+	height: 69px;
+	background-image: url("../images/input_container_bg.png");
+	background-repeat:
+	background-position: 0px 0px;
+}
+
+input#inputList {
+	float: left;
+	display: inline;
+	border: none;
+	background: url("../images/input_bg.gif") no-repeat right center;
+	font-size: 2.2em;
+	font-family: "Century Gothic", "Century", sans-serif;
+	width: 340px;
+	height: 27px;
+	padding: 8px 0px 8px 0px;
+	color: #595959;
+	margin: 12px 0px 0px 20px;
+}
+
+input#submitButton {
+	float: left;
+	display: inline;
+	cursor: pointer;
+	text-indent: -999em;
+	font-size: 0;
+	line-height: 0;
+	background: url("../images/btn_raquo.gif") no-repeat;
+	width: 25px;
+	height: 23px;
+	border: none;
+	margin: 23px 0px 0px 17px;
+}
+
+#working {
+	font-family: "Archer", Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 3em;
+	padding: 20px 0px 0px 0px;
+	width: auto;
+}
+
+#working .loadingImage {
+	float: left;
+	display: inline;
+	margin: 2px 5px 0px 85px;
+}
+
+#preResult {
+	font-family: "Archer", Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 3em;
+	padding: 20px 0px 0px 0px;
+	width: auto;
+	text-align: center;
+}
+
+#result {
+	font-family: "Century Gothic", "century", sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 7.2em;
+	text-align: center;
+	width: auto;
+	text-shadow: 3px 5px 2px #222222;
+}
+
+#result p {
+	display: inline;
+	width: auto;
+	background: url("../images/result_underline.gif") repeat-x bottom;
+}
+
+#siteBy {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	font-family: "Century Gothic", "century", sans-serif;
+	font-size: 1.1em;
+	color: #FFFFFF;
+	width: auto;
+}
+
+#siteBy a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#followMe {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-family: "Century Gothic", "century", sans-serif;
+	font-size: 1.1em;
+	color: #FFFFFF;
+	width: auto;
+}
+
+#followMe a {
+	color: #FFFFFF;
+	text-decoration: underline;
+	padding: 5px 0px 5px 25px;
+	background: url("../images/twitter_icon.gif") no-repeat left center;
+}
+
+#cantThink {
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	width: 182px;
+	background: #FFFFFF;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px;
+	overflow: hidden
+}
+
+#cantThink h2,
+#recently h2 {
+	font-size: 1.4em;
+	font-family: "Archer", Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+#cantThink h2 a,
+#recently h2 a {
+	color: #595959;
+}
+
+#cantThink h3 {
+	font-family: "Century Gothic", "century", sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #595959;
+	font-size: 1.2em;
+	margin: 5px 0px 5px 0px;
+}
+
+#cantThink ul,
+#recently ul {
+	list-style-type: none;
+	font-size: 1.1em;
+}
+
+#cantThink ul li a,
+#recently ul li a {
+	text-decoration: underline;
+	color: #595959;
+}
+
+
+#recently {
+	position: absolute;
+	bottom: 0px;
+	left: 202px;
+	width: 182px;
+	background: #FFFFFF;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px;
+	overflow: hidden
+}
+
+input.default {
+	color: #cccccc !important;
+}
+
+#whatIsThis {
+	position: absolute;
+	top: 0px;
+	width: 644px;
+	background: #FFFFFF;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	padding: 10px;
+	overflow: auto;
+	margin-left: -122px;
+}
+
+#whatIsThis .content {
+	float: left;
+	display: inline;
+	width: 400px;
+}
+
+#whatIsThis .ads {
+	float: right;
+	display: inline;
+    width: 125px;
+    height: 125px;
+	margin: 0px 0px 0px 10px;
+}
+
+#whatIsThis h1 {
+	font-size: 1.8em;
+	font-family: "Archer", Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0px 0px 5px 0px;
+}
+
+#whatIsThis p {
+	font-size: 1.1em;
+	padding: 0px 0px 5px 0px;
+	color: #4d4d4d;
+}
