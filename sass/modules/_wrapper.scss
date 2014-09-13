@@ -32,12 +32,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: rem-calc(30);
+    padding-bottom: rem-calc(30);
 
     @include respond-to("medium and above") {
         padding-top: rem-calc(65);
-    }
-
-    [data-randomiser-result] {
-        min-height: rem-calc(150);
     }
 }
