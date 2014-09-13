@@ -10,9 +10,6 @@
         <!-- Icons -->
         <link rel="shortcut icon" type="image/png" href="/static/images/icons/favicon.png">
 
-        <!-- Styles -->
-        <link rel="stylesheet" type="text/css" media="all" href="/static/css/screen.css">
-
         <!-- Meta -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,6 +80,9 @@
                 <p>made by <a href="http://www.madebykind.com">Kind</a></p>
             </div>
         </footer>
+
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" media="all" href="/static/css/screen.css">
 
         <!-- Scripts -->
         <script type="text/javascript" src="/static/js/build/app.min.js" async></script>
