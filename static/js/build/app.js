@@ -108,6 +108,7 @@ ga('send', 'pageview');
             var _self = this;
             this.$element.click( function(e) {
                 e.preventDefault();
+                this.focus();
                 _self.choices = $("[data-randomiser-input]").val();
                 if (_self.choices != "") {
                     _self.randomise();
