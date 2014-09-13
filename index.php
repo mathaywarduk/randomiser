@@ -8,7 +8,11 @@
         <title>The Randomiser - by Kind</title>
 
         <!-- Icons -->
-        <link rel="shortcut icon" type="image/png" href="/static/images/icons/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="/static/images/icons/favicon--144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/images/icons/favicon--144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/images/icons/favicon--114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/images/icons/favicon--72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/static/images/icons/favicon--57.png" />
 
         <!-- Meta -->
         <meta charset="UTF-8">
@@ -18,7 +22,7 @@
         <meta name="keywords" content="random, generator, randomise, randomize" />
 
         <!-- SEARCH -->
-        <link rel="search" type="application/opensearchdescription+xml" title="Mat Hayward" href="/opensearch.xml">
+        <link rel="search" type="application/opensearchdescription+xml" title="The Randomiser" href="/opensearch.xml">
 
         <!-- Facebook Open Graph -->
         <meta property="og:site_name" content="The Randomiser">
@@ -26,7 +30,7 @@
         <meta property="og:title" content="The Randomiser">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://therandomiser.com">
-        <meta property="og:image" content="http://therandomiser.com/static/images/social/default.jpg">
+        <meta property="og:image" content="http://therandomiser.com/static/images/social/default.png">
         <meta property="og:updated_time" content="2014-09-14T18:08:00+00:00">
 
         <!-- Twitter Card -->
@@ -34,9 +38,9 @@
         <meta name="twitter:site" content="@madebykind">
         <meta name="twitter:domain" content="madebykind.com">
         <meta name="twitter:creator" content="@madebykind">
-        <meta name="twitter:image:src" content="http://therandomiser.com/static/images/social/default.jpg">
+        <meta name="twitter:image:src" content="http://therandomiser.com/static/images/social/default.png">
         <meta name="twitter:description" content="Supply a list, and get an item from the list at random">
-        <meta name="twitter:title" content="Front-end Developer ~ Mat Hayward">
+        <meta name="twitter:title" content="The Randomiser">
         <meta name="twitter:url" content="http://therandomiser.com">
     </head>
 
