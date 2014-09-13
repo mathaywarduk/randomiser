@@ -69,4 +69,7 @@
     padding: rem-calc(0 20);
     height: rem-calc(34);
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    @include border-radius(0);
 }
