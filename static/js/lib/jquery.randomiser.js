@@ -5,6 +5,7 @@
         $resultContainer = this.$resultContainer = $("[data-randomiser-result]")
         randomising = this.randomising = false;
         result = this.result;
+        choices = this.choices;
 
         this.opts = opts;
         this.init();
@@ -19,7 +20,10 @@
             var _self = this;
             this.$element.click( function(e) {
                 e.preventDefault();
-                _self.randomise();
+                _self.choices = $("[data-randomiser-input]").val();
+                if (_self.choices != "") {
+                    _self.randomise();
+                }
             });
         },
         randomise: function() {
@@ -37,13 +41,12 @@
         },
         getResults: function() {
             this.showResults();
-            var choices = $("[data-randomiser-input]").val().split(",");
-            this.result = this.trimResult(this.getRandomResult(choices));
+            this.result = this.trimResult(this.getRandomResult(this.choices.split(",")));
         },
         showResults: function() {
             var _self = this;
             this.$resultContainer.fadeOut(250, function() {
-                _self.$resultContainer.html('<h2>The randomiser has chose:</h2><h1>' + _self.result + '</h1>').fadeIn();
+                _self.$resultContainer.html('<h2>The randomiser has chosen:</h2><h1>' + _self.result + '</h1>').fadeIn();
                 _self.randomising = false;
             });
         },
