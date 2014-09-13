@@ -1,0 +1,80 @@
+// ==========================================================================
+// FONT-SETTINGS MODULE
+// ==========================================================================
+//
+// This module contains all of the default font sizes and line heights.
+//
+// After settings the base font-size we group these settings into specific
+// font-families.
+//
+//
+// CONTENTS
+// 1. Base font-size variable.
+// 2. Font-set variables.
+@import '../../tools/import-once';
+@if import-once('font-scale') {
+
+// FONT STACK VARIABLES
+// ==========================================================================
+//
+
+$font-default: opensans !global;
+
+// BASE FONT-SIZE
+// ==========================================================================
+//
+// This variable sets the base font-size that can be used for calculating REM
+// values with a specific tool such as rem.scss.
+//
+
+$font-base-size: 16 !global;
+
+$font-sans-fallback-stack: "Helvetica, Arial, sans-serif" !global;
+
+
+
+// FONT-SET VARIABLES
+// ==========================================================================
+//
+// We’re using two fonts in this project, Merriweather (serif) and Open Sans (serif)
+//
+$fonts: (
+    opensans: (
+        normal: ('Open Sans', sans-serif),
+
+        base: (
+            font-size: 15,
+            line-height: 20
+        ),
+        large: (
+            font-size: 20,
+            line-height: 25
+        )
+    ),
+    bitter: (
+        normal: ('Bitter', serif),
+
+        small: (
+            font-size: 12,
+            line-height: 15
+        ),
+        base: (
+            font-size: 15,
+            line-height: 20
+        ),
+        mid: (
+            font-size: 30,
+            line-height: 36
+        ),
+        large: (
+            font-size: 44,
+            line-height: 48
+        ),
+        xlarge: (
+            font-size: 60,
+            line-height: 70
+        ),
+    )
+) !global;
+
+}

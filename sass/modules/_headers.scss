@@ -1,0 +1,30 @@
+// ==========================================================================
+// HEADERS
+// ==========================================================================
+//
+// Header styles
+//
+
+h1 {
+    @include font-family(bitter);
+    @include font-scale(mid, bitter);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    @include respond-to("medium and above") {
+        @include font-scale(large, bitter);
+    }
+
+    @include respond-to("large and above") {
+        @include font-scale(xlarge, bitter);
+    }
+}
+
+h2 {
+    @include font-family(bitter);
+    @include font-scale(base, bitter);
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>The Randomiser</ShortName>
+    <LongName>The Randomiser Search</LongName>
+    <Description>Search the Randomiser</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <Language>en-gb</Language>
+    <Developer>The Randomiser</Developer>
+    <Contact>mat@madebykind.com</Contact>
+    <SyndicationRight>open</SyndicationRight>
+    <Query role="example" searchTerms="red, green, blue, yellow"/>
+    <Image height="128" width="128" type="image/png">http://therandomiser.com/static/images/icons/favicon.png</Image>
+    <Url type="text/html" template="http://therandomiser.com/?q={searchTerms}"/>
+</OpenSearchDescription>

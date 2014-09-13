@@ -1,0 +1,80 @@
+// ==========================================================================
+// QUARKS    
+// ==========================================================================
+//
+// Styling for base HTML elements
+//
+// CONTENTS
+// 
+// 1. HTML & BODY
+// 2. PARAGRAPH TEXT
+
+
+@import "../imports";
+
+// HTML & BODY
+// ==========================================================================
+
+* {
+    @include box-sizing(border-box);
+}
+
+::selection {
+    background-color: rgba(255, 255, 255, 0.99); // Alpha to prevent chrome's default semi-transparency
+    color: palette(grey, dark);
+}
+
+::-moz-selection {
+    background-color: white;
+    color: palette(grey, dark);
+}
+
+html {
+    font-size: ($font-base-size * 1px);
+    min-width: 300px;
+}
+
+body {
+    @include font-family(opensans);
+    @include font-scale(base);
+    color: palette(grey);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    background-image: image-url("bgs/texture.gif");
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+// PARAGRAPH TEXT
+// ========================================================================== */
+
+p {
+    @include font-family(opensans);
+    @include font-scale(base);
+    margin-bottom: rem-calc(15);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+// LINKS
+// ========================================================================== */
+
+a {
+    &, &:link {
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid transparentize(white, 0.3)
+    }
+
+    &:hover, &:hover {
+        color: transparentize(white, 0.3);
+        border-bottom: 1px solid transparentize(white, 0.5)
+    }
+}

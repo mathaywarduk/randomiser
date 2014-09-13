@@ -1,0 +1,18 @@
+// ==========================================================================
+// ICONS    
+// ==========================================================================
+//
+
+
+.icon__spinner {
+    background-image: image-url("icons/icon__loader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include inline-block();
+    width: rem-calc(16);
+    height: rem-calc(16);
+    margin-right: rem-calc(5);
+    top: rem-calc(-1);
+    position: relative;
+}

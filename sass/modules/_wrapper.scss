@@ -1,0 +1,43 @@
+// ==========================================================================
+// WRAPPER  
+// ==========================================================================
+//
+// No grid necessary, so using a simple wrapper
+//
+
+
+@import "../imports";
+
+.wrapper {
+    position: relative;
+    padding-left: percentage(15/315);
+    padding-right: percentage(15/315);
+
+    @include respond-to("medium and above") {
+        padding-left: percentage(65/650);
+        padding-right: percentage(65/650);
+    }
+
+    @include respond-to("large and above") {
+        padding-left: percentage(135/995);
+        padding-right: percentage(135/995);
+        max-width: rem-calc(995);
+        margin: 0 auto;
+    }
+}
+
+.wrapper--spotlight {
+    background-image: image-url("bgs/spotlight.jpg");
+    min-height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: rem-calc(30);
+
+    @include respond-to("medium and above") {
+        padding-top: rem-calc(65);
+    }
+
+    [data-randomiser-result] {
+        min-height: rem-calc(150);
+    }
+}

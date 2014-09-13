@@ -1,0 +1,20 @@
+// ==========================================================================
+// BASE SPACING UNIT
+// ==========================================================================
+//
+// The base-spacing-unit sets the default margins and paddings of all elements
+// in order to create a systematic approach to spacing modules.
+//
+// This value is a pixel value but with functions and mixins such as with the
+// _rem.scss we can create whichever values we like depending on the situation.
+//
+
+@import '../../tools/import-once';
+
+// All positional settings (margin, padding, etc) should be dependent on the
+// foundational spacing unit.
+@if import-once('base-spacing') {
+
+    $base-unit: 5 !global;
+
+}

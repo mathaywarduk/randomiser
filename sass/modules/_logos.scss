@@ -1,0 +1,46 @@
+// ==========================================================================
+// LOGOS    
+// ==========================================================================
+//
+// Styling for logos
+//
+
+
+@import "../imports";
+
+.logo {
+    color: white;
+    @include font-family(bitter);
+    font-style: italic;
+    position: relative;
+    padding: rem-calc(12 0 0 8);
+    width: rem-calc(215);
+    margin: 0 auto rem-calc(25);
+
+    @include respond-to("medium and above") {
+        padding: rem-calc(20 0 0 12);
+        width: rem-calc(356);
+        float: left;
+    }
+
+    h1 {
+        font-size: rem-calc(36);
+        line-height: 1;
+        font-weight: normal;
+
+        @include respond-to("medium and above") {
+            font-size: rem-calc(60);
+        }
+    }
+
+    span {
+        font-size: rem-calc(15);
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @include respond-to("medium and above") {
+            font-size: rem-calc(25);
+        }
+    }
+}

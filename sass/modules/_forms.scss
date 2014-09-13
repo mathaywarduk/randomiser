@@ -1,0 +1,72 @@
+// ==========================================================================
+// FORMS
+// ==========================================================================
+//
+// Styling for forms
+//
+
+
+@import "../imports";
+
+.form {
+    clear: both;
+    margin-bottom: rem-calc(55);
+}
+
+.form__label {
+    font-style: italic;
+    @include font-family(bitter);
+    @include font-scale(base, bitter);
+    font-weight: 600;
+    color: white;
+    display: block;
+    margin-bottom: rem-calc(5);
+    max-width: rem-calc(550);
+    margin-left: auto;
+    margin-right: auto;
+
+    span {
+        @include font-scale(small, bitter);
+    }
+}
+
+.form__inline-input {
+    background-color: white;
+    @include border-radius(rem-calc(5));
+    position: relative;
+    border-width: 3px;
+    border-style: solid;
+    @include box-shadow(inset rem-calc(0 10 10 -10) transparentize(black, 0.5));
+    max-width: rem-calc(550);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__input {
+    background: none;
+    border: none;
+    color: palette(grey, dark);
+    @include font-scale(base);
+    font-style: italic;
+    padding: rem-calc(10 50 10 10);
+    width: 100%;
+}
+
+.form__button {
+    @include text-replace();
+    position: absolute;
+    right: 0;
+    top: rem-calc(5);
+    background: none;
+    background-image: image-url("icons/icon__arrow--double--right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    @include background-size(rem-calc(18));
+    width: rem-calc(18);
+    height: rem-calc(16);
+    border: none;
+    border-left: 1px solid palette(grey, mid);
+    padding: rem-calc(0 20);
+    height: rem-calc(34);
+    cursor: pointer;
+}

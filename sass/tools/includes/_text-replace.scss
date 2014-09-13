@@ -1,0 +1,18 @@
+// ==========================================================================
+// TEXT REPLACE
+// ==========================================================================
+//
+// This module can be extended into other components in order to hide the text.
+//
+//
+// h1 {
+//  background-image:...;
+//  @extend %text-replace;
+//
+// }
+//
+
+@mixin text-replace {
+    font-size: 0;
+    line-height: 0;
+}
