@@ -34,9 +34,8 @@
     width: rem-calc(25);
     height: rem-calc(25);
     @include inline-block();
-    font-weight: bold;
-    @include font-family(bitter);
     padding: rem-calc(2 0 0 2);
+    position: relative;
 
     &, &:link {
         color: palette(grey, dark);
@@ -47,10 +46,29 @@
         background-color: palette(grey, x-dark);
         color: white;
     }
+
+    &:before {
+        content: "?";
+        position: absolute;
+        font-weight: bold;
+        width: rem-calc(25);
+        height: rem-calc(25);
+        top: rem-calc(1);
+        left: rem-calc(1);
+    }
+
+    &.is--open {
+        &:before {
+            content: "X";
+            top: rem-calc(2);
+        }
+    }
 }
 
 .hint__content {
     display: none;
+    position: absolute;
+    z-index: 2;
     background-color: white;
     text-align: left;
     @include border-radius(rem-calc(3));
@@ -66,7 +84,7 @@
         border-right: rem-calc(6) solid transparent;
         border-bottom: rem-calc(6) solid white;
         position: absolute;
-        top: rem-calc(35);
+        top: rem-calc(-6);
         left: 50%;
         margin-left: rem-calc(-6);
     }

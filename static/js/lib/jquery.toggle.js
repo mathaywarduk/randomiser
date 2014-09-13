@@ -21,6 +21,7 @@
             });
         },
         toggle: function() {
+            this.$element.toggleClass("is--open");
             $("#" + this.targetId).fadeToggle();
         },
     }

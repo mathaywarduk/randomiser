@@ -46,7 +46,7 @@
             <div class="logo"><h1><span>the</span> Randomiser</h1></div>
 
             <div class="hint">
-                <a href="/what-is-this" class="hint__toggle" data-toggle data-toggle-target="what">?</a>
+                <a href="/what-is-this" class="hint__toggle" data-toggle data-toggle-target="what"></a>
                 <div class="hint__content" id="what">
                     <p>The Randomiser can help you make those tough decisions. What should I have for lunch today? What should I call my first child? etc.</p>
                     <p>Just enter the possibilities (separated by commas) and the Randomiser will choose for you!</p>
