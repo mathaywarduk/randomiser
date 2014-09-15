@@ -70,7 +70,8 @@ a {
     &, &:link {
         color: white;
         text-decoration: none;
-        border-bottom: 1px solid transparentize(white, 0.3)
+        border-bottom: 1px solid transparentize(white, 0.3);
+        outline: none;
     }
 
     &:hover, &:hover {
