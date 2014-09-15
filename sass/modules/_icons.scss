@@ -16,3 +16,20 @@
     top: rem-calc(-1);
     position: relative;
 }
+
+.icon__twitter {
+    background-image: image-url("icons/icon__twitter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include inline-block();
+    width: rem-calc(25);
+    height: rem-calc(25);
+    margin: 0 auto;
+    @include text-replace();
+    display: block;
+
+    &, &:link {
+        border-bottom: none;
+    }
+}

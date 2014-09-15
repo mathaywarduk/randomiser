@@ -14,6 +14,7 @@ module.exports = function(grunt) {
                     'static/js/lib/jquery-1.11.0.min.js',
                     'static/js/lib/jquery.toggle.js',
                     'static/js/lib/jquery.randomiser.js',
+                    'static/js/lib/jquery.tweet.js',
                     'static/js/global.js'
                     ],
                 dest: 'static/js/build/app.js',

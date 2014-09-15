@@ -47,7 +47,7 @@
         showResults: function() {
             var _self = this;
             this.$resultContainer.fadeOut(250, function() {
-                _self.$resultContainer.html('<h2>The randomiser has chosen:</h2><h1>' + _self.result + '</h1>').fadeIn();
+                _self.$resultContainer.html('<h2>The randomiser has chosen:</h2><h1>' + _self.result + '</h1><a href="#" class="icon__twitter" data-tweet data-tweet-result="' + _self.result + '">Share on twitter</a>').fadeIn();
                 _self.randomising = false;
             });
         },
