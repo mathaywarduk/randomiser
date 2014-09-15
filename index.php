@@ -37,7 +37,7 @@
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@madebykind">
-        <meta name="twitter:domain" content="madebykind.com">
+        <meta name="twitter:domain" content="mathayward.com">
         <meta name="twitter:creator" content="@madebykind">
         <meta name="twitter:image:src" content="http://randomiser.mathayward.com/static/images/social/default.png">
         <meta name="twitter:description" content="Supply a list, and get an item from the list at random">
