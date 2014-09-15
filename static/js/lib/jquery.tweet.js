@@ -59,7 +59,7 @@
         windowName: "popup",
         windowWidth: 685,
         windowHeight: 500,
-        url: "http://twitter.com/intent/tweet?url=http%3A%2F%2Frandomiser.mathayward.com&related=madebykind&text={TEXT}"
+        url: "http://twitter.com/intent/tweet?url=http%3A%2F%2Ftherandomiser.com&related=madebykind&text={TEXT}"
     };
 
 

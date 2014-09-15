@@ -9,6 +9,6 @@
     <Contact>mat@madebykind.com</Contact>
     <SyndicationRight>open</SyndicationRight>
     <Query role="example" searchTerms="red, green, blue, yellow"/>
-    <Image height="128" width="128" type="image/png">http://randomiser.mathayward.com/static/images/icons/favicon--144.png</Image>
-    <Url type="text/html" template="http://randomiser.mathayward.com/?q={searchTerms}"/>
+    <Image height="128" width="128" type="image/png">http://therandomiser.com/static/images/icons/favicon--144.png</Image>
+    <Url type="text/html" template="http://therandomiser.com/?q={searchTerms}"/>
 </OpenSearchDescription>

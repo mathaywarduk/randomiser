@@ -30,8 +30,8 @@
         <meta property="og:description" content="Supply a list, and get an item from the list at random">
         <meta property="og:title" content="The Randomiser">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://randomiser.mathayward.com">
-        <meta property="og:image" content="http://randomiser.mathayward.com/static/images/social/default.png">
+        <meta property="og:url" content="http://therandomiser.com">
+        <meta property="og:image" content="http://therandomiser.com/static/images/social/default.png">
         <meta property="og:updated_time" content="2014-09-14T18:08:00+00:00">
 
         <!-- Twitter Card -->
@@ -39,10 +39,10 @@
         <meta name="twitter:site" content="@madebykind">
         <meta name="twitter:domain" content="mathayward.com">
         <meta name="twitter:creator" content="@madebykind">
-        <meta name="twitter:image:src" content="http://randomiser.mathayward.com/static/images/social/default.png">
+        <meta name="twitter:image:src" content="http://therandomiser.com/static/images/social/default.png">
         <meta name="twitter:description" content="Supply a list, and get an item from the list at random">
         <meta name="twitter:title" content="The Randomiser">
-        <meta name="twitter:url" content="http://randomiser.mathayward.com">
+        <meta name="twitter:url" content="http://therandomiser.com">
     </head>
 
     <body class="no-js">
