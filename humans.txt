@@ -1,0 +1,6 @@
+/* DESIGN & BUILD */
+    Team:       Kind
+    URL:        http://madebykind.com
+    Contact:    hello [at] madebykind.com
+    Twitter:    @madebykind
+    From:       Nottingham, UK

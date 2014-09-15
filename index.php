@@ -20,6 +20,7 @@
         <meta name="description" content="Supply a list, and get an item from the list at random">
         <meta name="author" content="Kind">
         <meta name="keywords" content="random, generator, randomise, randomize" />
+        <link rel="author" type="text/plain" href="/humans.txt" />
 
         <!-- SEARCH -->
         <link rel="search" type="application/opensearchdescription+xml" title="The Randomiser" href="/opensearch.xml">
