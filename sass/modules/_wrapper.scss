@@ -19,8 +19,8 @@
     }
 
     @include respond-to("large and above") {
-        padding-left: percentage(135/995);
-        padding-right: percentage(135/995);
+        padding-left: rem-calc(135);
+        padding-right: rem-calc(135);
         max-width: rem-calc(995);
         margin: 0 auto;
     }
